@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "403954130342",
+    "firebase_url": "https://pill-caddy.firebaseio.com",
+    "project_id": "pill-caddy",
+    "storage_bucket": "pill-caddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403954130342:android:31c6bacd9ceb6235080367",
+        "android_client_info": {
+          "package_name": "com.example.pill_glassmorphism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403954130342-kobh1dm9oqrfg31bphs7rpk1nv9ovqku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4liKbqsw10HBJKRY_CVuENqsZawdIKLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403954130342-kobh1dm9oqrfg31bphs7rpk1nv9ovqku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403954130342:android:769197f4dd516307080367",
+        "android_client_info": {
+          "package_name": "com.voidd.pillcaddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403954130342-kobh1dm9oqrfg31bphs7rpk1nv9ovqku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4liKbqsw10HBJKRY_CVuENqsZawdIKLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403954130342-kobh1dm9oqrfg31bphs7rpk1nv9ovqku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

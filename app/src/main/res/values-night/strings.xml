@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in_to_continue">SIGN IN TO CONTINUE</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">----------------- or -----------------</string>
+    <string name="not_a_user">Not a User?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="password">Password</string>
+    <string name="signin_button">signIn button</string>
+    <string name="email_id">Email ID</string>
+    <string name="password_again">Password Again</string>
+    <string name="already_a_user">Already a User?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="facebook">facebook</string>
+    <string name="google">google</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_an_account">CREATE AN ACCOUNT</string>
+    <string name="sign_out">SIGN OUT</string>
+</resources>
