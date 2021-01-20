@@ -44,6 +44,7 @@ class SignInActivity : AppCompatActivity(), AuthListener, KodeinAware {
     }
 
     override fun moveSignIn() {
+
     }
 
     override fun onSuccess() {
@@ -53,8 +54,6 @@ class SignInActivity : AppCompatActivity(), AuthListener, KodeinAware {
 
     override fun onStarted() {
 //        progressbar.visibility = View.VISIBLE
-
-
     }
 
     override fun onFailure(message: String) {

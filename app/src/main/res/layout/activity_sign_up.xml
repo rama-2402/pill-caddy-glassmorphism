@@ -41,9 +41,9 @@
             <ImageView
                 android:layout_width="96dp"
                 android:layout_height="96dp"
-                android:src="@drawable/app_logo"
                 android:layout_marginTop="56dp"
-                />
+                android:contentDescription="@string/sign_in"
+                android:src="@drawable/app_logo" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -77,31 +77,38 @@
                     <ImageView
                         android:layout_width="17dp"
                         android:layout_height="17dp"
-                        android:src="@drawable/sign_rect_pin"
                         android:layout_marginStart="17dp"
-                        android:layout_marginTop="21dp"/>
+                        android:layout_marginTop="21dp"
+                        android:contentDescription="@string/sign_in"
+                        android:src="@drawable/sign_rect_pin" />
+
                     <ImageView
                         android:layout_width="17dp"
                         android:layout_height="17dp"
-                        android:src="@drawable/sign_rect_pin"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="21dp"
                         android:layout_marginEnd="21dp"
-                        android:layout_marginTop="21dp"/>
+                        android:contentDescription="@string/sign_in"
+                        android:src="@drawable/sign_rect_pin" />
+
                     <ImageView
                         android:layout_width="17dp"
                         android:layout_height="17dp"
-                        android:src="@drawable/sign_rect_pin"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
                         android:layout_alignParentBottom="true"
                         android:layout_marginEnd="20dp"
-                        android:layout_marginBottom="19dp"/>
+                        android:layout_marginBottom="19dp"
+                        android:contentDescription="@string/sign_in"
+                        android:src="@drawable/sign_rect_pin" />
+
                     <ImageView
                         android:layout_width="17dp"
                         android:layout_height="17dp"
-                        android:src="@drawable/sign_rect_pin"
                         android:layout_alignParentBottom="true"
                         android:layout_marginStart="17dp"
-                        android:layout_marginBottom="17dp"/>
+                        android:layout_marginBottom="17dp"
+                        android:contentDescription="@string/sign_in"
+                        android:src="@drawable/sign_rect_pin" />
 
                 </RelativeLayout>
 
@@ -222,20 +229,26 @@
                         android:layout_weight="1.5"
                         android:orientation="horizontal"
                         android:gravity="center">
+
                         <ImageView
                             android:layout_width="48dp"
                             android:layout_height="50dp"
+                            android:contentDescription="@string/sign_in"
                             android:src="@drawable/ic_facebook" />
+
                         <ImageView
                             android:layout_width="48dp"
                             android:layout_height="50dp"
                             android:layout_marginStart="32dp"
                             android:layout_marginEnd="32dp"
-                            android:src="@drawable/ic_google"/>
+                            android:contentDescription="@string/sign_in"
+                            android:src="@drawable/ic_google" />
+
                         <ImageView
                             android:layout_width="48dp"
                             android:layout_height="50dp"
-                            android:src="@drawable/ic_twitter"/>
+                            android:contentDescription="@string/sign_in"
+                            android:src="@drawable/ic_twitter" />
                     </LinearLayout>
                 </LinearLayout>
             </io.alterac.blurkit.BlurLayout>

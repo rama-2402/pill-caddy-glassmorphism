@@ -24,48 +24,57 @@ class AuthViewModel (private val repository: UserRepository): ViewModel() {
 //SignIn Authentication
 
     fun signIn(){
-        if (email.isNullOrEmpty() || password.isNullOrEmpty()) {
-            authListener?.onFailure("Invalid email or password")
+        if (email.isNullOrEmpty()) {
+            authListener?.onFailure("Enter a valid email ID!")
+            return
+        }
+        if (password.isNullOrEmpty()){
+            authListener?.onFailure("Enter a valid password of min 6 digits!")
             return
         }
         authListener?.onStarted()
 
         val disposable = repository.login(email!!, password!!)
-            .subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
-            .subscribe({
-                authListener?.onSuccess()
-            }, {
-                authListener?.onFailure(invalid)
-            })
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe({
+                    authListener?.onSuccess()
+                }, {
+                    authListener?.onFailure(invalid)
+                })
         disposables.add(disposable)
     }
-
 //SignUp Authentication
 
     fun signUp(){
-        if (email.isNullOrEmpty() || password.isNullOrEmpty()) {
-            authListener?.onFailure("Invalid email or password")
+        if (email.isNullOrEmpty()) {
+            authListener?.onFailure("Ener a valid email ID!")
+            return
+        }
+        if (password.isNullOrEmpty()) {
+            authListener?.onFailure("Enter a valid password of min 6 digits!")
             return
         }
         authListener?.onStarted()
 
         val disposable = repository.register(email!!, password!!)
-            .subscribeOn(Schedulers.io())
-            .observeOn(AndroidSchedulers.mainThread())
-            .subscribe({
-                authListener?.onSuccess()
-            }, {
-                authListener?.onFailure(invalid)
-            })
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe({
+                    authListener?.onSuccess()
+                }, {
+                    authListener?.onFailure(invalid)
+                })
         disposables.add(disposable)
     }
+
 
 //Move to signUp page from signIn page
 
 
     fun gotoSignUp(view: View){
-        Intent(view.context,SignUpActivity::class.java).also{
+        Intent(view.context,SignUpActivity::class.java)
+            .also {
             view.context.startActivity(it)
         }
     }
@@ -87,7 +96,6 @@ class AuthViewModel (private val repository: UserRepository): ViewModel() {
         super.onCleared()
         disposables.dispose()
     }
-
 }
 
 
