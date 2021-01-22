@@ -17,4 +17,7 @@
     <string name="create_an_account">CREATE AN ACCOUNT</string>
     <string name="sign_out">SIGN OUT</string>
     <string name="log_out">LOG OUT</string>
+    <string name="hello">Hello,</string>
+    <string name="name">Name</string>
+    <string name="home_stat_txt">Here\&#39;s Your stat for the day !</string>
 </resources>
