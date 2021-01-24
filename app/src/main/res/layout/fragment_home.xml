@@ -12,10 +12,13 @@
 
     </data>
 
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".HomeFragment">
+        tools:context=".homepage.HomeFragment">
 
         <!--        <TextView-->
         <!--            android:layout_width="wrap_content"-->
@@ -126,8 +129,8 @@
                 app:layout_constraintHeight_percent=".7"
                 android:layout_marginEnd="16dp"
                 android:layout_marginStart="10dp"
-                android:backgroundTint="#80D8FF"
-                app:cardBackgroundColor="#80D8FF"
+                android:backgroundTint="@color/blue_background"
+                app:cardBackgroundColor="@color/blue_background"
                 app:cardElevation="15dp"
                 android:layout_marginTop="10dp"
                 app:cardCornerRadius="10dp" />
@@ -153,26 +156,37 @@
             android:background="@drawable/ic_home_med_tracker"/>
 
         <ImageButton
-            android:layout_width="45dp"
+            android:layout_width="43dp"
             android:layout_height="50dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginEnd="18dp"
             android:background="@drawable/ic_home_reports" />
 
         <ImageButton
-            android:layout_width="45dp"
+            android:layout_width="41dp"
             android:layout_height="50dp"
-            android:layout_marginStart="16dp"
-            android:background="@drawable/ic_home_calendar"/>
+            android:layout_marginStart="18dp"
+            android:background="@drawable/ic_home_calendar"
+            android:onClick="@{(v) -> viewmodel.singlePicker(v)}"/>
 
         <ImageButton
-            android:layout_width="45dp"
+            android:layout_width="43dp"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
             android:background="@drawable/ic_home_more"/>
         </LinearLayout>
 
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/home_row_icon_layout"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    >
 
+</RelativeLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
 
 </layout>

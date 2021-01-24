@@ -19,8 +19,6 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-//    val navController = Navigation.findNavController(this, R.id.myNavHostFragment)
-
     }
 
 }
