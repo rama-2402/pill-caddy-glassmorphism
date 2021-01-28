@@ -22,4 +22,7 @@
     <string name="hello">Hello,</string>
     <string name="name">Name</string>
     <string name="home_stat_txt">Here\&#39;s Your stat for the day !</string>
+    <string name="single_day">Single Day</string>
+    <string name="range_of_days">Range of Days</string>
+    <string name="multiple_days">Multiple Days</string>
 </resources>

@@ -25,7 +25,14 @@ class HomeViewModel(
         view.context.startSignInActivity()
     }
 
-    fun singlePicker(view: View){
-        homeListener?.singleDay()
+    fun singlePicker(){
+        homeListener?.expandFAB()
+
+    }
+    fun multiplePicker(){
+        homeListener?.multipleDays()
+    }
+    fun rangePicker(){
+        homeListener?.rangeOfDays()
     }
 }

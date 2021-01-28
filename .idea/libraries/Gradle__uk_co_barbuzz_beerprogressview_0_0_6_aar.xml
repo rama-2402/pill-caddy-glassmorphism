@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: uk.co.barbuzz:beerprogressview:0.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec0f3ca3ea1a8f3823e83ca7285a55a5/jetified-beerprogressview-0.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec0f3ca3ea1a8f3823e83ca7285a55a5/jetified-beerprogressview-0.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ec0f3ca3ea1a8f3823e83ca7285a55a5/jetified-beerprogressview-0.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/uk.co.barbuzz/beerprogressview/0.0.6/9d16f52fd7d438693de42f51983dd4811d11500c/beerprogressview-0.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
